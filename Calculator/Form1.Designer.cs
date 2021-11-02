@@ -29,7 +29,7 @@ namespace Calculator
         /// </summary>
         private void InitializeComponent()
         {
-            this.btCong = new System.Windows.Forms.Button();
+            this.btTru = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txtA = new System.Windows.Forms.TextBox();
@@ -39,14 +39,14 @@ namespace Calculator
             this.txtKetqua = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // btCong
+            // btTru
             // 
-            this.btCong.Location = new System.Drawing.Point(340, 177);
-            this.btCong.Name = "btCong";
-            this.btCong.Size = new System.Drawing.Size(52, 33);
-            this.btCong.TabIndex = 0;
-            this.btCong.Text = "+";
-            this.btCong.UseVisualStyleBackColor = true;
+            this.btTru.Location = new System.Drawing.Point(340, 177);
+            this.btTru.Name = "btTru";
+            this.btTru.Size = new System.Drawing.Size(52, 33);
+            this.btTru.TabIndex = 0;
+            this.btTru.Text = "-";
+            this.btTru.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
@@ -117,7 +117,7 @@ namespace Calculator
             this.Controls.Add(this.txtA);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.btCong);
+            this.Controls.Add(this.btTru);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -127,7 +127,7 @@ namespace Calculator
 
         #endregion
 
-        private System.Windows.Forms.Button btCong;
+        private System.Windows.Forms.Button btTru;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtA;
